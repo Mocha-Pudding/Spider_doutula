@@ -22,12 +22,13 @@ def parse_page(url):
         img_url = img.get('data-original')      #获取图片的url
         # print(img_url)
         alt = img.get('alt')       #获取图片名字
-        alt = re.sub(r'[\?？\.，。!！]','',alt)      #正则表达式去除文件名中的特殊字符  re模块
+        alt = re.sub(r'[\?？\.，。!！、\*]','',alt)      #正则表达式去除文件名中的特殊字符  re模块
         suffix = os.path.splitext(img_url)[1]      #获取图片的后缀名 os模块下的分割
         # print(suffix)
         filename = alt + suffix      #构建图片的名字（名字+后缀名）
         # print(filename)
         request.urlretrieve(img_url,'images/'+filename)
+        print(filename + '  ---下载完成!---')
 
 def main():
     for x in range(1,101):      #以爬取前100页为例
