@@ -2,14 +2,11 @@
 </br>
 <h1 align="center">:whale:使用生产者与消费者模式多线程下载表情包:whale:</h></br>
 </br>
-<p align="left">🍭🍭🍭👋👋👋</p>
+<p align="center">🍭🍭🍭👋👋👋</p>
 
 > <h5>生命苦短，我用Python！</h5>
 > <h5>Python Scrapy-Redis Demos.</h5>
 
-## 简易结构
-学习路线
-```
 项目主要截图↓：</br>
 </br>
 ![ScreenShot of icon](https://github.com/Mocha-Pudding/Spider_doutula/blob/master/doutula1.jpg)   
