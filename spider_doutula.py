@@ -33,6 +33,7 @@ def main():
     for x in range(1,101):      #以爬取前100页为例
         url = 'http://www.doutula.com/photo/list/?page=%d' %x      #构建url
         parse_page(url)
+        # break      #break掉只获取第一页的表情包
 
 if __name__ == '__main__':
     main()
