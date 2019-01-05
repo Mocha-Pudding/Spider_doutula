@@ -5,8 +5,9 @@
 <p align="center">🍭🍭🍭👋👋👋</p>
 
 > <h5>生命苦短，我用Python！</h5>
-> <h5>Python Scrapy-Redis Demos.</h5>
+> <h5>Spider_doutula.demo</h5>
 
+## 项目介绍
 项目主要截图↓：</br>
 </br>
 ![ScreenShot of icon](https://github.com/Mocha-Pudding/Spider_doutula/blob/master/doutula1.jpg)   
